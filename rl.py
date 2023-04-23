@@ -38,7 +38,7 @@ def process(gpu, args, world_size):
       probs = model(state)
 
       if random.random() < args.epsilon:
-        action = torch.randint(0, 256, (args.bs,)) 
+        action = torch.randint(0, args.v, (args.bs,)) 
       else:
         action = Categorical(probs).sample()
       action = action.cuda(gpu)
