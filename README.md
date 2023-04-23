@@ -1,1 +1,3 @@
-# a3cgpt
+### A3CGPT
+
+Train GPT with A3C. Because why not (it sucks tbh)...
