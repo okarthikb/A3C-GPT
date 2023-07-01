@@ -1,4 +1,4 @@
-## A3CGPT
+## A3C-GPT
 
 Train GPT with A3C. Because why not (it sucks tbh)...
 
